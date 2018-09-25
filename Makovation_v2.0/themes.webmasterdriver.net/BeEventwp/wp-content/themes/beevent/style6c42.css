@@ -1,0 +1,278 @@
+/*
+Theme Name:BeEvent
+Description:Premium WordPress Event Theme Developed by webmasterdriver.
+Author: webmasterdriver
+Theme URI: http://themes.webmasterdriver.net/BeEventwp/
+Version:1.0
+Author URI: https://themeforest.net/user/webmasterdriver
+License:GNU General Public License v2 or later
+License URI:http://www.gnu.org/licenses/gpl-2.0.html
+Description:this theme create on 2017 for wordpress.
+Tags: one-column, two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, flexible-header, full-width-template, microformats, post-formats, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: beevent
+This theme, like WordPress, is licensed under the GPL.
+
+Use it to make something cool, have fun, and share what you've learned with others.
+*/ 	
+
+/*-------------------------------
+
+ =  Table of Css
+1. VC General Css
+2. WordPress Default Theme Css
+
+-------------------------------*/
+
+/*-----------------------------*/
+/* 1. VC General Css
+/*-----------------------------*/
+.blog_wrap .vc_gitem-post-data {margin-bottom: 10px;}
+body .vc_btn3-container .vc_btn3-style-custom.vc_btn3-color-grey {
+  background: #de302f none repeat scroll 0 0;
+  color: #ffffff;
+  font-weight: 600;
+  text-transform: capitalize;
+  transition: all 0.5s linear 0s;
+}
+body .vc_btn3-container .vc_btn3.vc_btn3-size-md{font-size: 22px;}
+body .vc_btn3-container .vc_btn3.vc_btn3-size-lg{font-size: 36px; line-height:60px; padding:15px 60px; }
+.vc_btn3-size-md {padding: 20px 50px !important;}
+body .wpb_gmaps_widget .wpb_wrapper {
+  padding: 0;
+}
+.wpb_accordion_section.group {
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+}
+.subscribe-form {text-align: center;}
+.padding-bottom-non .vc_column-inner.vc_custom_1482306843566 {padding: 0 !important;}
+.venue_info_box {
+  inline-size: 30% !important;
+  margin-left: 14px;
+  margin-right: 15px;
+  width: 30% !important;
+}
+.sidebar_widgets .form-group.newsletter-input {
+  margin: 0 auto;
+  width: auto;
+}
+.sidebar_widgets .form-group.newsletter-input {
+  display: block;
+}
+.sidebar_widgets .newsletter-btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  left:inherit;
+}
+.sidebar_widgets .mc4wp-form{ position:relative;}
+.vc_custom_heading.form-hadding {
+  background: #fff none repeat scroll 0 0;
+  font-weight: 400;
+  margin: 0 auto;
+  padding-bottom: 0;
+  padding-top: 30px;
+}
+
+.banner-form-2 {
+  position: absolute;
+  top: -550px;
+  z-index: 1;
+}
+#tetette {
+  position: absolute;
+  width: 90%;
+}
+.banner-form-2 {
+  top: -510px;
+  z-index: 1;
+}
+.about-slider p {
+  margin-bottom: 30px;
+}
+.widget_title h6 .fa {margin-right: 5px;}
+.new-cat-list .post-categories {
+  margin: 0 auto;
+  padding: 0;
+}
+.new-cat-list .post-categories > li {
+  display: inline-block;
+  list-style: outside none none;
+}
+.article_tag .tag-title {
+  margin-bottom: 10px;
+}
+.article_tag .tag_list a {
+  margin-bottom: 7px;
+  margin-right: 2px;
+}
+.new-cat-list a {
+  border: 1px solid #de302f;
+  border-radius: 3px;
+  color: #de302f !important;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding: 4px 10px;
+  text-transform: capitalize;
+}
+.wp_nav_links > a {
+  border: 1px solid #de302f;
+  display: inline-block;
+  line-height: 18px;
+  padding: 4px 15px;
+}
+.wp_nav_links > a:nth-last-child(1) {
+  float: right;
+}
+.blog_categories .list-style-none > li {
+  margin-bottom: 5px;
+}
+.banner_style2 #slideshow .banner-tagline {
+  padding-top: 100px;
+  position: relative;
+  z-index: 1;
+}
+.banner_style2 #slideshow .banner-content h1 {
+  font-size: 86px;
+}
+.owl-theme .owl-nav [class*="owl-"] {
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+  color: #de302f !important;
+  font-size: 30px !important;
+  margin: 7px !important;
+  padding: 1px 7px !important;
+  border-radius:0px !important;
+}
+#blog .vc_gitem-zone-img {
+  max-height: 232px;
+}
+.inner_pages img {
+  height: auto;
+  max-width: 100%;
+}
+.content_pages {
+  clear: both;
+  margin-bottom: 50px;
+}
+ul.dropdown-menu li.current-menu-item {
+  float: none !important;
+}
+
+
+/*-----------------------------*/
+/* 1. WordPress Default Theme Css
+/*-----------------------------*/
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+.alignleft {
+	float: left;
+	margin: 5px 20px 20px 0;
+}
+.alignright {
+	float: right;
+	margin: 5px 0 20px 20px;
+}
+.aligncenter, div.aligncenter {
+	display: block;
+	margin: 5px auto;
+}
+.screen-reader-text {
+	display: none;
+}
+.fw-wrap-search-form {
+	display:none;
+}
+.wp-caption-text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0;
+}
+.sticky .entry-date {
+	display: none;
+}
+.gallery-caption {
+	background-color: rgba(0, 0, 0, 0.7);
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	color: #fff;
+	font-size: 12px;
+	line-height: 1.5;
+	margin: 0;
+	max-height: 50%;
+	opacity: 0;
+	padding: 6px 8px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	text-align: left;
+	width: 100%;
+}
+.gallery-caption:before {
+	content: "";
+	height: 100%;
+	min-height: 49px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.bypostauthor > article .fn:before {
+ 
+	margin: 0 2px 0 -2px;
+	position: relative;
+	top: -1px;
+}
+.bypostauthor > article .fn:before, 
+.comment-edit-link:before, 
+.comment-reply-link:before, 
+.comment-reply-login:before, 
+.comment-reply-title small a:before, 
+.contributor-posts-link:before, 
+.menu-toggle:before, 
+.search-toggle:before, 
+.slider-direction-nav a:before, 
+.widget_twentyfourteen_ephemera .widget-title:before {
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	font: normal 16px/1 Genericons;
+	text-decoration: inherit;
+	vertical-align: text-bottom;
+}
+.sticky-post {
+  color: #de302f;
+  font-size: 18px;
+  line-height: 32px;
+}
